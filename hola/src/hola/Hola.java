@@ -5,6 +5,8 @@
  */
 package hola;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Angel
@@ -16,6 +18,7 @@ public class Hola {
      */
     public static void main(String[] args) {
         System.out.println("hola mundo");
+        JOptionPane.showMessageDialog(null, "Hola mundo");
     }
     
 }
